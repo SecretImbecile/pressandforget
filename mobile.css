@@ -1,0 +1,47 @@
+@media (max-width:1440px) {
+        main {
+                padding: 0 11vw;
+                padding-top: 32px;
+        }
+}
+
+@media (max-width:800px) {
+        body {
+                background-color: #fff;
+        }
+        main {
+                border: none;
+                max-width: 80vw;
+                flex-basis: 80vw;
+                padding: 0;
+                padding-top: 32px;
+        }
+        article div,
+        article img {
+                max-width: 100%;
+        }
+}
+
+@media screen and (max-width: 782px)
+{
+        #navbar {
+                position: initial;
+                box-shadow: none;
+        }
+        main {
+                padding-top: 0;
+                text-align: left;
+                line-height: 1.35;
+        }
+        #searchform {
+                display: none;
+        }
+}
+
+@media screen and (max-width: 320px)
+{
+        main {
+                max-width: 90vw;
+                flex-basis: 90vw;
+        }
+}

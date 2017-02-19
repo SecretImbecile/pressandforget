@@ -33,4 +33,6 @@ $headerargs = array(
 add_theme_support( 'custom-header', $headerargs );
 register_nav_menu('primary', 'Nav Bar');
 
+wp_enqueue_style( 'mobile', get_stylesheet_directory_uri() . '/mobile.css' );
+
 ?>
