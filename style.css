@@ -1,0 +1,139 @@
+/*
+Theme Name: Press and Forget
+Author: Jack Kelly
+Author URI: http://www.jackjkelly.com
+Description: A lightweight WordPress theme, utilising CSS flexbox to minimise media queries and format-specific exceptions.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400');
+
+body {
+        min-width: 320px;
+        margin: 0;
+
+        background-color: #eee;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 14pt;
+}
+
+a {text-decoration: none;}
+strong {font-weight: 400;}
+
+h1 {
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+}
+h1 {font-size: 2.5em;}
+h2 {font-size: 1.5em;  margin: 0.75em 0;}
+h3 {font-size: 1.25em; margin: 0.5em 0;}
+h4 {font-size: 1em; margin: 0.25em 0;}
+h2,h3,h4 {font-weight: 400;}
+
+h1, h2, h3, h1 a, h2 a, h3 a {color:#0080ff;}
+h4, h4 a {color:black;}
+
+/* Page Layout */
+
+#page {
+        margin: 0;
+        width: 100%;
+
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: stretch;
+        justify-content: space-around;
+}
+
+main {
+        flex-basis: 35em;
+        flex-shrink: 1;
+        padding: 0 8em;
+        padding-top: 32px;
+
+        text-align: justify;
+        line-height: 1.5;
+        background-color: #fff;
+        border: 1px solid #ccc;
+}
+
+/* Header */
+header {
+        padding-top: 1em;
+        text-align: center;
+}
+header>h1 {
+        margin:0 auto;
+}
+header>em {
+        line-height: 0.5;
+        font-style: normal;
+        font-size: 1.25em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        color: #777;
+}
+
+/* Articles */
+
+article {
+        margin: 4em 0;
+}
+
+article>time {
+        color: #777;
+        font-size: 0.8em;
+}
+article>h2 {
+        margin: 0;
+}
+
+/* Content */
+
+blockquote {
+        margin: 0 auto;
+        font-style: italic;
+        font-size: 0.9em;
+        background-color: #f9f9f9;
+        padding: 1% 5%;
+        border-radius: 4px;
+}
+
+article div, article img {
+        max-width: 30em;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+}
+article img {border-radius: 4px; overflow: hidden;}
+
+.wp-caption-text {
+        color: #777;
+        text-align: center;
+        font-style:italic;
+}
+
+/* Navbar */
+
+#navbar {
+        position: fixed;
+        height: 32px;
+        width: 100%;
+
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: stretch;
+
+        color: #fff;
+        background-color: #0080ff;
+        box-shadow: 0 0px 16px rgba(0,0,0,0.5);
+}
