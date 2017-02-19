@@ -10,8 +10,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
-		<nav id="navbar">
-		</nav>
+		<?php get_template_part('nav'); ?>
 		<div id="page">
 			<main>
 				<header>
