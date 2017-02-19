@@ -7,8 +7,8 @@ if (have_posts()):
         	get_template_part('post');
     	}
    	//get_template_part('prevnext');
-//else:
-	//get_template_part('part', '404');
+else:
+	get_template_part('part', '404');
 endif; ?>
 
 <?php get_footer(); ?>
