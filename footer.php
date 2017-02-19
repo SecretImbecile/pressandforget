@@ -1,7 +1,5 @@
-                                <footer id="footer">
-                                        <?php get_template_part('footer', 'content'); ?>
-                                </footer>
-                        </page>
+                                <?php get_template_part('footer', 'content'); ?>
+                        </main>
                 </div>
                 <?php wp_footer(); ?>
         </body>
