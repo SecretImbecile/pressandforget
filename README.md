@@ -1,6 +1,8 @@
 # Press and Forget
 A minimal WordPress theme.
 
+![alt text](https://github.com/SecretImbecile/pressandforget/raw/master/screenshot.jpg "")
+
 ## Features
 ### Simple responsive design
 The theme is built with CSS flexboxes, so scales well between desktop and mobile formats without a huge number of media queries.
