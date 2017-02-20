@@ -128,6 +128,17 @@ article img {border-radius: 4px; overflow: hidden;}
         margin: 0.5em auto;
 }
 
+.video {
+        width: 100%;
+        height: auto;
+        text-align: center;
+}
+.video iframe{
+        max-width: 100%;
+        display: inline-block;
+}
+
+
 /* Navbar */
 
 #navbar {
@@ -192,6 +203,22 @@ article img {border-radius: 4px; overflow: hidden;}
 #searchform>input:nth-child(2):hover {background-color: #3399ff;}
 
 /* Footer */
+#prevnext {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-bottom: 4em;
+        font-size: 1.1em;
+}
+
+#prevnext>* {
+        flex-grow: 0;
+}
+#prevnextspacer {
+        flex-grow: 1;
+}
+
+
 main>footer{
         font-style: italic;
         text-align: center;
