@@ -7,6 +7,9 @@ A minimal WordPress theme.
 ### Simple responsive design
 The theme is built with CSS flexboxes, so scales well between desktop and mobile formats without a huge number of media queries.
 
+### Focus on readability
+Page body is sized relative to font size, maintaining approximately 75 characters per line for best readability. A contrasting font colour is used along with a large default font size.
+
 ### Light on features
 With so little of WordPress's theme features enabled, there's hardly anything to go wrong!
 
