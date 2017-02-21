@@ -25,3 +25,5 @@ This theme, like WordPress, is licensed under the GNU General Public License v2 
 
 ### Forking
 Use and modification of this theme is encouraged!
+
+A fork of this theme named [Acacia Acuminata](https://github.com/McrRaspJam/acacia-acuminata) is currently being used for the site of [Manchester Raspberry Jam](http://mcrraspjam.org.uk/)
