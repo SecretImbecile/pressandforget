@@ -25,13 +25,17 @@ function meta_description() {
 
 register_nav_menu('primary', 'Nav Bar');
 
-/* Video div magic */
-
-add_filter('embed_oembed_html', 'my_embed_oembed_html', 99, 4);
+/* Filters */
 
 function my_embed_oembed_html($html, $url, $attr, $post_id) {
         return '<div class="video">' . $html . '</div>';
 }
+add_filter('embed_oembed_html', 'my_embed_oembed_html', 99, 4);
+
+function modify_read_more_link() {
+        return '<a class="more-link" href="' . get_permalink() . '"><span>Continue reading</span></a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
 
 /* Stylesheets */
 
